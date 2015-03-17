@@ -1,5 +1,5 @@
 dir=$(dirname $0)
-source $dir/../git/git.plugin.zsh
+source $HOME/.antigen/repos/https-COLON--SLASH--SLASH-github.com-SLASH-tevren-SLASH-git-zsh-plugin.git/git.plugin.zsh
 source $dir/git-prompt.sh
 
 function git_prompt_info() {
